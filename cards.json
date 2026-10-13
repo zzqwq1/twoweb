@@ -1,1 +1,11 @@
-{"cards":{},"bindings":{}}
+{
+  "cards": {
+    "TW-8SPG-QCCK-7QHL": {
+      "days": 1,
+      "activateTime": 0,
+      "expireTime": 0,
+      "created": 1791894536704
+    }
+  },
+  "bindings": {}
+}
