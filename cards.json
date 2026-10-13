@@ -1,11 +1,5 @@
 {
   "cards": {
-    "TW-8SPG-QCCK-7QHL": {
-      "days": 1,
-      "activateTime": 1791895241532,
-      "expireTime": 1791981641532,
-      "created": 1791894536704
-    },
     "TW-9TW7-BJT8-UF8P": {
       "days": 7,
       "activateTime": 0,
@@ -67,10 +61,5 @@
       "created": 1791895709918
     }
   },
-  "bindings": {
-    "TW-8SPG-QCCK-7QHL": {
-      "mac": "MAC-1636935724",
-      "time": 1791895461056
-    }
-  }
+  "bindings": {}
 }
