@@ -2,10 +2,15 @@
   "cards": {
     "Ljdsa-CdsA8-cA5nF-LGdyk": {
       "days": 1,
-      "activateTime": 0,
-      "expireTime": 0,
+      "activateTime": 1791895799147,
+      "expireTime": 1791982199147,
       "created": 1791895785795
     }
   },
-  "bindings": {}
+  "bindings": {
+    "Ljdsa-CdsA8-cA5nF-LGdyk": {
+      "mac": "MAC-1636935724",
+      "time": 1791895799147
+    }
+  }
 }
