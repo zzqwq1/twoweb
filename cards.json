@@ -1,11 +1,4 @@
 {
-  "cards": {
-    "TW-V4XL-8LZV-43DY": {
-      "days": 7,
-      "activateTime": 0,
-      "expireTime": 0,
-      "created": 1791894883341
-    }
-  },
+  "cards": {},
   "bindings": {}
 }
