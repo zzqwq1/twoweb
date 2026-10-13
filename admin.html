@@ -131,6 +131,10 @@ async function saveDB(){
   });
   if(!res.ok) throw new Error('保存失败（代码' + res.status + '），点刷新后重试');
   SHA = (await res.json()).content.sha;
+  // ★ 保存成功后立即清除CDN缓存，让新数据几秒内全球生效 ★
+  try{
+    await fetch('https://purge.jsdelivr.net/gh/' + CONFIG.owner + '/' + CONFIG.repo + '@' + CONFIG.branch + '/cards.json');
+  }catch(e){ /* 清缓存失败不影响保存 */ }
 }
 
 /* ★ 生成随机字符：大小写字母 + 数字（已去掉容易看错的 I O l o 0 1）★ */
