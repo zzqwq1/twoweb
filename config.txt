@@ -1,0 +1,4 @@
+channel_open=1
+kill_all=0
+notice=Welcome
+version=1.0
